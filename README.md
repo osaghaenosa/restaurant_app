@@ -1,4 +1,14 @@
-# restaurant_app
-This is a restaurant app for booking of food and having fun. It was designed based on a concept and it was made with
-React, TypeScript.
-since it is just a test version for now, there is no backend implementation, all CURD methods being used here are being stored in the local storage and it was a great experience working on this project.
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
